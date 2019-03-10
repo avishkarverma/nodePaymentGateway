@@ -1,0 +1,25 @@
+{
+  "name": "ppg-testing",
+  "version": "1.0.0",
+  "description": "A node model for testing Paytm Payment Gateway.",
+  "main": "index.js",
+  "scripts": {
+    "test": "run",
+	"start": "nodemon"
+  },
+  "keywords": [
+    "ppg",
+    "testing",
+    "node"
+  ],
+  "author": "Avishkar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "https": "^1.0.0",
+    "nodemon": "^1.18.10",
+    "util": "^0.11.1"
+  }
+}
